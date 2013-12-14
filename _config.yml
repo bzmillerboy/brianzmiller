@@ -1,0 +1,4 @@
+name: Foundation + Jekyll Base
+markdown: redcarpet
+pygments: true
+baseurl: ""
