@@ -1,4 +1,3 @@
-brianzmiller
-============
+# Brian Miller
 
-A repo for Brian Miller
+A site for Brian Miller
