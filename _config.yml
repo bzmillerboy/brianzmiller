@@ -1,4 +1,4 @@
 name: Foundation + Jekyll Base
 markdown: redcarpet
 pygments: true
-baseurl: "http://bzmillerboy.github.io/brianzmiller"
+baseurl: "http://brianzmiller.com"
