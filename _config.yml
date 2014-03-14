@@ -1,4 +1,5 @@
 name: Foundation + Jekyll Base
 markdown: redcarpet
 pygments: true
-baseurl: "http://brianzmiller.com"
+baseurl: http://brianzmiller.com
+exclude: ['node_modules', 'scss']
