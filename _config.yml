@@ -1,5 +1,4 @@
-name: Foundation + Jekyll Base
+name: buckeyemoldedproducts.com
 markdown: redcarpet
 pygments: true
-baseurl: http://brianzmiller.com
 exclude: ['node_modules', 'scss']
