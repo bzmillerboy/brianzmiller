@@ -22,15 +22,14 @@ module.exports = function(grunt) {
     },
     watch: {
       grunt: {
-        files: 'Gruntfile.js',
-        tasks: ['jekyll']
+        files: ['Gruntfile.js']
       },
       css: {
         files: 'scss/**/*.scss',
         tasks: ['sass']
       },
       jekyll: {
-          files: ['*.html', '_layouts/*.html', '_includes/*.html', '_post/*.html', 'img/*'],
+          files: ['*.html', '_layouts/*.html', '_includes/*.md', '_post/*.html', 'img/*'],
           tasks: ['jekyll']
       }
     },
