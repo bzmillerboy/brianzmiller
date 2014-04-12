@@ -10,7 +10,6 @@ module.exports = function(grunt) {
           noCache: true
         },
         files: {
-          'css/styles.css': 'scss/styles.scss',
           '_site/css/styles.css': 'scss/styles.scss'
         }
       }
@@ -30,7 +29,7 @@ module.exports = function(grunt) {
       },
       jekyll: {
           files: ['*.html', '_layouts/*.html', '_includes/*.md', '_post/*.html', 'img/*'],
-          tasks: ['jekyll']
+          tasks: ['jekyll','sass']
       }
     },
     browserSync: {

@@ -6360,7 +6360,9 @@ article > .inner {
 .logo h1 .z {
   display: inline-block;
   border: 4px solid #FFF;
-  padding: 11px 12px 5px 9px; }
+  padding: 11px 12px 5px 9px;
+  box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.03); }
 
 .welcome {
   background: linear-gradient(#66d1ed, #658ded), #65afed; }
